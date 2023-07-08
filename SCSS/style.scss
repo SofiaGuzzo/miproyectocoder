@@ -12,68 +12,64 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-}
+        header h1 {
+            color: rgb(243, 160, 87);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 48px;
+            display: flex;
+            justify-content: center;
+            margin: 8px;
+                header h2 {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 30px;
+                    display: flex;
+                    margin: 8px;
+                    .inicio {
+                        color: rgb(244, 158, 9);
+                        text-decoration: none;
+                        list-style-type: none;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-size: 18px;
+                        text-decoration: underline;
+                            .peliculas {
+                                color: rgb(244, 158, 9);
+                                text-decoration: none;
+                                list-style-type: none;
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                font-size: 18px;
+                                text-decoration: underline;
+                                    .television {
+                                        color: rgb(244, 158, 9);
+                                        text-decoration: none;
+                                        list-style-type: none;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        font-size: 18px;
+                                        text-decoration: underline;
+                                            .critica {
+                                                color: rgb(244, 158, 9);
+                                                text-decoration: none;
+                                                list-style-type: none;
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                font-size: 18px;
+                                                text-decoration: underline;
+                                                    .estrenos {
+                                                        color: rgb(244, 158, 9);
+                                                        text-decoration: none;
+                                                        list-style-type: none;
+                                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                        font-size: 18px;
+                                                        text-decoration: underline;
+                                                }
+                                        }
+                                }
+                        }
 
-header h1 {
-    color: rgb(243, 160, 87);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    margin: 8px;
-}
+                    }
+            }
 
-header h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    display: flex;
-    margin: 8px;
+        }
 }
-
-.inicio {
-    color: rgb(244, 158, 9);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-}
-
-.peliculas {
-    color: rgb(244, 158, 9);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-}
-
-.television {
-    color: rgb(244, 158, 9);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-} 
-
-.critica {
-    color: rgb(244, 158, 9);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-}
-
-.estrenos {
-    color: rgb(244, 158, 9);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: underline;
-}
+ 
 
 .inicio:hover{
     color: rgb(209, 129, 32);
@@ -95,35 +91,35 @@ header h2 {
     color: rgb(209, 129, 32);
 }
 
+
+
 section div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    .batmanimg {
+        width: 260px;
+        height: 400px;
+        margin: 3px;
+            .bladeimg {
+                width: 260px;
+                height: 400px;
+                margin: 3px;
+                    .breakingbadimg {
+                        width: 260px;
+                        height: 400px;
+                        margin: 3px;
+                            .triler-batman {
+                                width: 260px;
+                                height: 400px;
+                                margin: 3px;
+                        }
+                }
+        }
+    }
 }
 
-.batmanimg {
-    width: 260px;
-    height: 400px;
-    margin: 3px;
-}
 
-.bladeimg {
-    width: 260px;
-    height: 400px;
-    margin: 3px;
-}
-
-.breakingbadimg {
-    width: 260px;
-    height: 400px;
-    margin: 3px;
-}
-
-.triler-batman {
-    width: 260px;
-    height: 400px;
-    margin: 3px;
-}
 
 footer {
     background: linear-gradient(to top, rgb(239, 180, 121), white);
@@ -133,20 +129,31 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+        .redes-sociales {
+            margin: 16px;
+            list-style-type: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+                .menu-container-redes-sociales {
+                    list-style-type: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 18px;
+                        .facebookclass {
+                            text-decoration: none;
+                            color: rgb(244, 158, 9);
+                                .instagramclass {
+                                    text-decoration: none;
+                                    color: rgb(244, 158, 9);
+                                        .tiktokclass {
+                                            text-decoration: none;
+                                            color: rgb(244, 158, 9);
+                                    }
+                            }
+                    }
+            }
+    }
 }
 
-.redes-sociales {
-    margin: 16px;
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-}
-
-.menu-container-redes-sociales {
-    list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-}
 
 .facebookclass:hover {
     color: rgb(209, 129, 32);
@@ -158,19 +165,4 @@ footer {
 
 .tiktokclass:hover {
     color: rgb(209, 129, 32);
-}
-
-.facebookclass {
-    text-decoration: none;
-    color: rgb(244, 158, 9);
-}
-
-.instagramclass {
-    text-decoration: none;
-    color: rgb(244, 158, 9);
-}
-
-.tiktokclass {
-    text-decoration: none;
-    color: rgb(244, 158, 9);
 }
